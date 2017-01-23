@@ -1,0 +1,50 @@
+<div class="row">
+                        <div class="col-md-3" ng-repeat="prospect in prospects" ng-click="Ctrl.submit(prospect)">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile" style="cursor: pointer;">
+                                    <div class="profile-image">
+                                        <img ng-src="{{prospect.CONTACT_PIC_URL}}" alt="Nadia Ali"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">{{prospect.CONTACT_NM}}</div>
+                                        <div class="profile-data-title">{{prospect.CONTACT_JOB_DESC}}</div>
+                                    </div>
+                                    <div class="profile-controls sr-only">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                                           
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>
+                        <div class="col-md-3 sr-only">
+                            <!-- CONTACT ITEM -->
+                            <div class="panel panel-default">
+                                <div class="panel-body profile">
+                                    <div class="profile-image">
+                                        <img src="assets/images/users/user.jpg" alt="Dmitry Ivaniuk"/>
+                                    </div>
+                                    <div class="profile-data">
+                                        <div class="profile-data-name">Dmitry Ivaniuk</div>
+                                        <div class="profile-data-title">Web Developer / UI/UX Designer</div>
+                                    </div>
+                                    <div class="profile-controls">
+                                        <a href="#" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                        <a href="#" class="profile-control-right"><span class="fa fa-phone"></span></a>
+                                    </div>
+                                </div>                                
+                                <div class="panel-body">                                    
+                                    <div class="contact-info">
+                                        <p><small>Mobile</small><br/>(333) 333-33-22</p>
+                                        <p><small>Email</small><br/>dmitry@domain.com</p>                                        
+                                        <p><small>Address</small><br/>123 45 Street San Francisco, CA, USA</p>                                   
+                                    </div>
+                                </div>                                
+                            </div>
+                            <!-- END CONTACT ITEM -->
+                        </div>                    
+                    </div>
+					
+					

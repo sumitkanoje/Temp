@@ -1,0 +1,17 @@
+{
+   'name': 'root',
+   'children': [
+      {
+	    'name': 'Personality',
+		'size': 1
+	  },
+	  {
+	     'name': 'Values',
+		 'size': 1
+	  },
+	  {
+	     'name': 'Consumer Needs',
+		 'size': 1
+	  }
+   ]
+}
